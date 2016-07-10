@@ -3,100 +3,100 @@ do
 if is_momod(msg) then
 return [[ 
 
---***** ÏÓÊæÑÇÊ ãÏíÑíÊí ÓæÑ Ñæå *****--
+--***** دستورات مديريتي سوپر گروه *****--
 
 
 
 
-/settings : äãÇíÔ ÊäÙíãÇÊ Ñæå
+/settings : نمايش تنظيمات گروه
 
-/stats : äãÇíÔ ÊÚÏÇÏ íÇã åÇí ÇÑÓÇáí ÊæÓØ ÇÝÑÇÏ ÏÑ ÓæÑ Ñæå
+/stats : نمايش تعداد پيام هاي ارسالي توسط افراد در سوپر گروه
 
-/setrules <rules> : ÇíÌÇÐ ÞæÇäíä ÈÑÇí ÓæÑ Ñæå
+/setrules <rules> : ايجاذ قوانين براي سوپر گروه
 
-/newlink : ÓÇÎÊ áíä˜ ÌÏíÏ
+/newlink : ساخت لينک جديد
 
-/setlink : ËÈÊ áíä˜ ÌÏíÏ 
+/setlink : ثبت لينک جديد 
 
-/link : áíä˜ ÓæÑ Ñæå 
+/link : لينک سوپر گروه 
 
-/linkpv : ÔãÇ pv ÇÑÓÇá áíä˜ ÓæÑ Ñæå Èå 
+/linkpv : شما pv ارسال لينک سوپر گروه به 
 
-/setname : ÊÛííÑ äÇã ÓæÑ Ñæå 
+/setname : تغيير نام سوپر گروه 
 
-/setphoto : ÊÛííÑ Ú˜Ó ÓæÑ Ñæå 
+/setphoto : تغيير عکس سوپر گروه 
 
 
 ______________________________
 
-/lock|unlock tag :  ÞÝá/ ÇÒÇÏ ˜ÑÏä ÇÓÊÝÇÏå ÇÒ Ê 
+/lock|unlock tag :  قفل/ ازاد کردن استفاده از تگ 
 
-/lock|unlock spam : ÞÝá/ÇÒÇÏ ˜ÑÏä ãÊä åÇí ØæáÇäí
+/lock|unlock spam : قفل/ازاد کردن متن هاي طولاني
 
-/lock|unlock member : ÞÝá/ÇÒÇÏ ˜ÑÏä ÇÚÖÇ
+/lock|unlock member : قفل/ازاد کردن اعضا
 
-/lock|unlock link : ÝÚÇá/ ÛíÑÝÚÇá ˜ÑÏä ÖÏ ÊÈáíÛ
+/lock|unlock link : فعال/ غيرفعال کردن ضد تبليغ
 
-/lock|unlock bots : ÞÝá / ÇÒÇÏ ˜ÑÏä æÑæÏ ÑÈÇÊ åÇ 
+/lock|unlock bots : قفل / ازاد کردن ورود ربات ها 
 
-/lock|unlock strict : ÊäÙíãÇÊ ÓÎÊ íÑÇäå 
+/lock|unlock strict : تنظيمات سخت گيرانه 
 
-/lock|unlock leave : ÝÚÇá / ÛíÑ ÝÚÇá ˜ÑÏä áÝÊ ÏÇÏä 
+/lock|unlock leave : فعال / غير فعال کردن لفت دادن 
 
-/lock|unlock emoji : ÝÚÇá / ÛíÑ ÝÚÇá ˜ÑÏä ÇíãæÌí 
+/lock|unlock emoji : فعال / غير فعال کردن ايموجي 
 
-/lock|unlock sticker : ÝÚÇá / ÛíÑ ÝÚÇá ˜ÑÏä ÇÓÊí˜Ñ 
+/lock|unlock sticker : فعال / غير فعال کردن استيکر 
 
-/lock|unlock english : ÝÚÇá / ÛíÑ ÝÚÇá ˜ÑÏä ÍÑæÝ ÇíäíáÓí 
+/lock|unlock english : فعال / غير فعال کردن حروف اينگيلسي 
 
-/lock|unlock fwd(forward): ÝÚÇá / ÛíÑ ÝÚÇá ˜ÑÏä íÇã åÇí ÝÑæÇÏí
+/lock|unlock fwd(forward): فعال / غير فعال کردن پيام هاي فروادي
 
-/lock|unlock RTL : ÝÚÇá / ÛíÑÝÚÇá ˜ÑÏä ãÊä åÇí ØæáÇäí
+/lock|unlock RTL : فعال / غيرفعال کردن متن هاي طولاني
 
-/lock|unlock join : ÝÚÇá / ÛíÑ ÝÚÇá ˜ÑÏä ÚÖæ ÔÏä ÏÑ ÓæÑ Ñæå 
+/lock|unlock join : فعال / غير فعال کردن عضو شدن در سوپر گروه 
 
-/lock|unlock username(@): ÝÚÇá / ÛíÑ ÝÚÇá ˜ÑÏä íæÒÑäíã 
+/lock|unlock username(@): فعال / غير فعال کردن يوزرنيم 
 
-/lock|unlock media : ÝÚÇá / ÛíÑÝÚÇá ˜ÑÏä ãÏíÇ 
+/lock|unlock media : فعال / غيرفعال کردن مديا 
 
-/lock|unlock fosh : ÝÚÇá / ÛíÑ ÝÚÇá ˜ÑÏä ÝÍÇÔí 
+/lock|unlock fosh : فعال / غير فعال کردن فحاشي 
 
-/lock|unlock operator : ÝÚÇá / ÛíÑ ÝÚÇá ˜ÑÏä ÇÑÇÊæÑ 
+/lock|unlock operator : فعال / غير فعال کردن اپراتور 
 ______________________________________
 
 
------***** ÏÓÊæÑÇÊ ãÏíÑíÊí ÓæÑ Ñæå *****-----
+-----***** دستورات مديريتي سوپر گروه *****-----
 
 
-/block : @user  ˜í˜ ˜ÑÏä ÔÎÕ ÇÒ Ñæå 
+/block : @user  کيک کردن شخص از گروه 
 
-/ban : @user ÇÎÑÇÌ ˜ÑÏä ÔÎÕ ÇÒ Ñæå 
+/ban : @user اخراج کردن شخص از گروه 
 
-/banlist : áíÓÊ ˜ÇÑÈÑÇä ÇÎÑÇÌ ÔÏå ÇÒ Ñæå
+/banlist : ليست کاربران اخراج شده از گروه
 
-/unban :@user ÎÇÑÌ ˜ÑÏä ÇÒ Èä
+/unban :@user خارج کردن از بن
 
-/silentlist :ÔÏå  Mute  áíÓÊ ÇÝÑÇÏ 
+/silentlist :شده  Mute  ليست افراد چ
 
-/silent <id> : ˜ÑÏä ÇÝÑÇÏ Mute|Unmute 
+/silent <id> : کردن افراد Mute|Unmute 
 
-/promote : ÇÖÇÝå ˜ÑÏä ãÏíÑ 
+/promote : اضافه کردن مدير 
 
-/demote : ÍÐÝ ˜ÑÏä ãÏíÑ 
+/demote : حذف کردن مدير 
 
-/setadmin : ÇÖÇÝå ˜ÑÏä ÓÑÑÓÊ 
+/setadmin : اضافه کردن سرپرست 
 
-/demoteadmin : ÍÐÝ ˜ÑÏä ÓÑÑÓÊ 
+/demoteadmin : حذف کردن سرپرست 
 
 _________________________________________
-......ãäÊÙÑ ÇÏÏíÊ ÌÏíÏ ÈÇÔíÏ
+......منتظر اپدديت جديد باشيد
 
 ]]
 end
 end
 return {
 patterns = {
-"^[/!#]([Hh]elp)$",
+"^[#!/]([Hh]elp)$",
 },
 run = run
 }
