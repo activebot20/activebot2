@@ -249,7 +249,17 @@ function create_config( )
     "set_type",
     "welcome",
     "sh",
-    "serverinfo"
+    "serverinfo",
+    "warn",
+    "AddSudo",
+    "azan",
+    "arz",
+    "echo",
+    "nerkh",
+    "me",
+    "news",
+    "wai"
+    
     },
     sudo_users = {152816907},--Sudo users
     moderation = {data = 'data/moderation.json'},
